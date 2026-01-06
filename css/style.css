@@ -1,0 +1,134 @@
+
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Lato', sans-serif;
+   
+    
+}
+#hero-section{
+    background-color:#FFE4B5;
+    width: 100%;
+    height: auto;
+    padding: 6rem 0;
+   
+}
+.hero-main{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6rem;
+    align-items: center;
+}
+.hero-text{
+    max-width: 100%;
+}
+.hero-head{
+
+    font-size: 4.4rem;
+            margin-bottom: 2rem;
+            font-weight: 700;
+            line-height: 1.2;
+            color: #333;
+}
+.hero-des{
+    width: 100%;
+    font-size: 1.8rem;
+     margin-bottom: 3rem;
+     color: #555;
+            line-height: 1.6;
+}
+.btn-full{
+    padding: 1.5rem 3rem;
+    margin:1rem 1rem;
+    color: white;
+    background-color: brown;
+    border-radius:2rem;
+}
+.hero-image{
+    max-width: 100%;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.hero-image1{
+    width: 100%;
+    height: auto;
+   display: block;
+    
+   
+}
+.customer-pp {
+   
+            display: flex;
+            align-items: center;
+             gap: 1.5rem;
+    margin-top: 2rem; /* space under the buttons */
+    padding: 1rem 2rem;
+
+}
+.customer-img {
+            width: 5rem;
+            height: 5rem;
+            border-radius: 50%;
+            border: 3px solid white;
+            margin-left: -1.5rem;
+}
+
+.customer-pp span{
+    font-size:1.4rem;
+    color: rgb(158, 20, 20);
+    margin-left: 1.5rem;
+    font-size: 2rem;
+}
+/* headersection*/
+.headline{
+   width: 100%;
+   background-color: #FFE4B5;
+            padding: 2rem 4rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;;
+
+}
+
+
+.navii{
+     display: flex;
+     align-items: center;
+     gap: 1rem;
+     flex-wrap: wrap;
+}
+.nav-link{
+            padding: 1rem 2rem;
+            font-size: 1.6rem;
+            font-weight: bold;
+            
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            transition: background-color 0.3s;
+            white-space: nowrap;
+}
+.logo{
+ flex-shrink: 0;
+}
+.logi-mg{
+    width: 100%;
+    height: 4rem;
+    padding: 1rem 3rem;
+}
+.btn-nav{
+    padding:1rem 2rem;
+    font-size:1.6rem;
+    border-radius:0.8rem;
+    text-decoration:none;
+    color: rgb(231, 231, 231);
+    background-color: rgb(222, 66, 66);
+}
