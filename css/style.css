@@ -1,4 +1,7 @@
-
+html,
+body {
+  overflow-x: hidden;
+}
 * {
             margin: 0;
             padding: 0;
@@ -10,86 +13,6 @@ html{
 }
 body{
     font-family: 'Lato', sans-serif;
-   
-    
-}
-#hero-section{
-    background-color:#fdf2e9;
-    width: 100%;
-    height: auto;
-    padding: 6rem 0;
-   
-}
-.hero-main{
-    max-width: 1200px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 6rem;
-    align-items: center;
-}
-.hero-text{
-    max-width: 100%;
-}
-.hero-head{
-
-    font-size: 4.4rem;
-            margin-bottom: 2rem;
-            font-weight: 700;
-            line-height: 1.2;
-            color: #333;
-}
-.hero-des{
-    width: 100%;
-    font-size: 1.8rem;
-     margin-bottom: 3rem;
-     color: #555;
-            line-height: 1.6;
-}
-.btn-full{
-    padding: 1.5rem 3rem;
-    margin:1rem 1rem;
-    color: white;
-    background-color: rgb(239, 117, 50);
-    border-radius:2rem;
-    text-decoration: none;
-    font-weight: 300;
-    font-size: 1.5rem;
-}
-.hero-image{
-    max-width: 100%;
-    grid-column: 2/3;
-    grid-row: 1/2;
-}
-.hero-image1{
-    width: 100%;
-    height: auto;
-   display: block;
-    
-   
-}
-.customer-pp {
-   
-            display: flex;
-            align-items: center;
-             gap: 1.5rem;
-    margin-top: 2rem; /* space under the buttons */
-    padding: 1rem 2rem;
-
-}
-.customer-img {
-            width: 5rem;
-            height: 5rem;
-            border-radius: 50%;
-            border: 3px solid white;
-            margin-left: -1.5rem;
-}
-
-.customer-pp span{
-    font-size:1.4rem;
-    color: rgb(158, 20, 20);
-    margin-left: 1.5rem;
-    font-size: 2rem;
 }
 /* headersection*/
 .headline{
@@ -135,9 +58,90 @@ body{
     background-color: rgb(222, 66, 66);
 }
 
+/* hero sectiomn*/
+#hero-section {
+  background-color: #fdf2e9;
+  padding: 6rem 0;
+}
+.hero-main {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* ✅ TWO COLUMNS */
+  gap: 6rem;
+  align-items: center;
+}
+.hero-text {
+  max-width: 55rem;
+}
+
+.hero-head {
+  font-size: 4.4rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.hero-des {
+  font-size: 1.8rem;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 3.2rem;
+}
+.btn-full {
+  display: inline-block;
+  padding: 1.5rem 3.2rem;
+  border-radius: 2rem;
+  background-color: #ef7532;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-right: 1.6rem;
+}
+
+.btn-outline {
+  background-color: #fdf2e9;
+  color: #ef7532;
+  border: 2px solid #ef7532;
+}
+.customer-pp {
+  display: flex;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.customer-img {
+  width: 4.8rem;
+  height: 4.8rem;
+  border-radius: 50%;
+  border: 3px solid #fdf2e9;
+  margin-left: -1.6rem;
+}
+
+.customer-img:first-child {
+  margin-left: 0;
+}
+
+.customer-pp span {
+  margin-left: 2rem;
+  font-size: 1.6rem;
+  color: #cf711f;
+  font-weight: 500;
+}
+.hero-image1 {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
 /*logo section*/
 .withus{
-    max-width: 1200px;
+    max-width: 120rem;
     margin: 0 auto;
     padding: 8rem 2rem;
 }
@@ -160,7 +164,7 @@ body{
 
 /* feature section*/
 .features-section {
-    max-width: 1200px;
+    max-width: 120rem;
     margin: 0 auto;
     padding: 8rem 2rem;
 }
@@ -229,9 +233,9 @@ body{
 /*meals-se*/
 
 #recepi{
-    max-width: 1200px;
+    max-width: 120rem;
     margin: 0 auto;
-    padding: 8rem 2rem;
+    padding: 1rem 2rem;
     
 }
 .recepi-head{
@@ -338,12 +342,12 @@ body{
 /* testimonials*/
 
 .tesimonial-gallery{
-    max-width:100%;
-   
+    max-width:120rem;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 4rem;
     background-color: #fdf2e9;
+    border-radius: 2rem;
 }
 .tesimonials{
     display: block;
@@ -399,6 +403,7 @@ body{
     width: 80%;
     height: 90%;
     transition:all 0.4s;
+    border-radius: 2rem;
     
 }
 .imges-tr img:hover{
@@ -408,8 +413,8 @@ body{
 /* pricing*/
 
 .price-h{
-  max-width: 1200px;
-    margin: 4rem auto;
+   max-width:120rem;
+    margin: 2rem auto;
     line-height :4rem;
 }
 .price-h h4{
@@ -426,7 +431,7 @@ body{
 }
 
 .price{
-   max-width: 1000px;
+    max-width: 120rem;
     margin: 0 auto;
     padding: 4rem 0;
 
@@ -439,7 +444,7 @@ body{
 
 }
 .price-main{
-    width:70%;
+    width:100%;
     height: auto;
     padding: 2rem 0;
     border-radius: 1.2rem;
@@ -450,7 +455,7 @@ body{
 
 }
 .price-main1{
-    width:70%;
+    width:100%;
     height: auto;
     padding: 2rem 0;
     border-radius: 1.2rem;
@@ -528,8 +533,10 @@ body{
     color: rgb(75, 73, 73);
     margin: 4rem 0;
 }
+/*info*/
+
 .info{
-    max-width: 1200px;
+    max-width: 120rem;
     margin: 2rem auto;
     display: grid;
     grid-template-columns:repeat(4, 1fr)
@@ -541,7 +548,6 @@ body{
 }
 
 .info-icon{
-    display:bloc;
     margin: 0  auto 1rem;
     font-size: 4rem;
     margin-bottom: 1rem;
@@ -568,7 +574,7 @@ body{
 }
 /* forms and pic*/
 .forms-pic{
-    max-width:1200px;
+    max-width:120rem;
     height: auto;
     margin:2rem auto;
     
@@ -658,7 +664,7 @@ font-size: 2rem;
 /* footers*/
 
 .footer1{
-    max-width: 1200px;
+    max-width: 120rm;
     margin: 2rem auto;
 }
 .footer-main{
